@@ -1,0 +1,23 @@
+
+
+https://github.com/Yawnmain/Homework_ISU/assets/108503319/b52b1e17-ae60-47fc-aaee-662ef1301929
+
+# Таблица
+| leds       |      D9      | D8  | D7 | D6 |
+| :--------- | :----------: | :-: | :-: | :-: |
+| 1          |      H       |  L  |  L  |  H  |
+| 2          |      H       |  L  |  H  |  L  |
+| 3          |      L       |  H  |  L  |  H  |
+| 4          |      L       |  H  |  H  |  L  |
+| 1, 2       |      H       |  L  |  L  |  L  |
+| 3, 4       |      L       |  H  |  L  |  L  |
+| 1, 3       |      H       |  H  |  L  |  H  |
+| 2, 4       |      H       |  H  |  H  |  L  |
+| 1, 4       |  switch 1/4  |
+| 2, 3       |  switch 2/3  |
+| 1, 2, 3    | switch 1,2/3  |
+| 2, 3, 4    | switch 2/3,4  |
+| 3, 4, 1    | switch 3,4/1  |
+| 4, 1, 2    | switch 1,4/2  |
+| 1, 2, 3, 4 | switch 1,2/3,4 |
+| ниодного       |      L       |  L  |  L  |  L  |
