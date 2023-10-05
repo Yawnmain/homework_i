@@ -1,7 +1,11 @@
 
 
 
-https://github.com/Yawnmain/homework_i/assets/108503319/7899d64c-3e92-4d42-835f-44abda4a6abb
+https://github.com/Yawnmain/homework_i/assets/108503319/33eff08f-0519-4500-a070-e78dc370a50e
+
+
+
+
 
 
 
