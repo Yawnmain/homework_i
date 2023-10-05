@@ -1,6 +1,10 @@
 
 
-https://github.com/Yawnmain/Homework_ISU/assets/108503319/b52b1e17-ae60-47fc-aaee-662ef1301929
+
+https://github.com/Yawnmain/homework_i/assets/108503319/7899d64c-3e92-4d42-835f-44abda4a6abb
+
+
+
 
 # Таблица
 | leds       |      D9      | D8  | D7 | D6 |
