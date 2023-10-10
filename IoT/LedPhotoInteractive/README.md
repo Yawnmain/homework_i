@@ -1,1 +1,1 @@
-https://github.com/Yawnmain/homework_i/blob/main/IoT/LedPhotoInteractive/demo.mp4
+<video src='https://disk.yandex.ru/i/D9bomn-rfFyMbQ' width=180/>
