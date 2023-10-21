@@ -9,6 +9,7 @@ image_folder = "images"
 
 image_files = [f for f in os.listdir(image_folder) if f.endswith('.npy')]
 
+#перебор изображений
 for image_file in image_files:
     image_path = os.path.join(image_folder, image_file)
     wires = np.load(image_path)
@@ -17,6 +18,7 @@ for image_file in image_files:
 
     breaks = []
 
+    #перебор
     for label_value in range(1, labeled.max() + 1):
         current_wire = np.zeros_like(wires)
         current_wire[labeled == label_value] = 1
@@ -32,6 +34,7 @@ for image_file in image_files:
         else:
             breaks.append((label_value, 0))
 
+    #перебор меток
     for label_value, num_breaks in breaks:
         if num_breaks == 0:
             print(f"Провод с меткой {label_value} не порван.")
