@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Table</title>
+    <style>
+        table {
+            font-family: "Arial", sans-serif;
+            border-collapse: collapse;
+            width: 40%;
+            margin: 20px;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: left;
+            font-family: "Helvetica Neue", sans-serif;
+        }
+
+        th {
+            background-color: #0077b6;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #83c5be;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #f0a500;
+        }
+    </style>
+</head>
+<body>
+<table><tr><td>address</td><td>yawnishe.671@yandex.ru</td></tr> 
+<tr><td>country</td><td>RU</td></tr> 
+<tr><td>from</td><td>Arnold</td></tr> 
+</table>
