@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AddNums</string>
+    <string name="header">AddNums</string>
+    <string name="first_summand">2</string>
+    <string name="second_summand">2</string>
+    <string name="sum">"COUNT"</string>
+</resources>
