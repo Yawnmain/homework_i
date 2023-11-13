@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">S7</string>
+        <string-array name="city_array">
+            <item>Город 1</item>
+            <item>Город 2</item>
+        </string-array>
+</resources>

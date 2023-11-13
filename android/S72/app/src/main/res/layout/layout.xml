@@ -1,0 +1,90 @@
+<!-- res/layout/activity_main.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Выпадающие списки для выбора городов вылета и прилета -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Spinner для города вылета -->
+        <Spinner
+            android:id="@+id/spinnerDeparture"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+        <!-- Spinner для города прилета -->
+        <Spinner
+            android:id="@+id/spinnerArrival"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <!-- Текстовые поля для ввода даты вылета и прилета -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- EditText для даты вылета -->
+        <EditText
+            android:id="@+id/editTextDepartureDate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Дата вылета"/>
+
+        <!-- EditText для даты прилета -->
+        <EditText
+            android:id="@+id/editTextArrivalDate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Дата прилета"/>
+    </LinearLayout>
+
+    <!-- Текстовые поля для числа пассажиров -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- EditText для взрослых -->
+        <EditText
+            android:id="@+id/editTextAdults"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Взрослые"/>
+
+        <!-- EditText для детей -->
+        <EditText
+            android:id="@+id/editTextChildren"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Дети"/>
+
+        <!-- EditText для младенцев -->
+        <EditText
+            android:id="@+id/editTextInfants"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Младенцы"/>
+    </LinearLayout>
+
+    <!-- Кнопка поиска -->
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Поиск"/>
+</LinearLayout>
