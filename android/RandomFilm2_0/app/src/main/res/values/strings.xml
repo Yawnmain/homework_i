@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">RandomMovie</string>
+    <string name="movieTextView">Click</string>
+    <string name="allMoviesViewed">All movies have been viewed</string>
+    <string name="nextMovie">Next</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="movies">
+        <item>Сайлент Хилл</item>
+        <item>Терминатор</item>
+        <item>Гарри Поттер</item>
+        <item>Пираты Карибского моря</item>
+        <item>Аватар</item>
+        <item>Китобой</item>
+        <item>Интерстеллар</item>
+    </string-array>
+</resources>
