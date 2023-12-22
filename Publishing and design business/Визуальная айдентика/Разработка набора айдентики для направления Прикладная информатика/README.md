@@ -1,1 +1,1 @@
-[Ссылка на проект]()
+[Ссылка на проект](https://github.com/Yawnmain/homework_i/blob/main/Publishing%20and%20design%20business/Визуальная%20айдентика/Разработка%20набора%20айдентики%20для%20направления%20Прикладная%20информатика/bezymyannyy.pdf)
