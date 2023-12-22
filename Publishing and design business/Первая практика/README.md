@@ -1,5 +1,3 @@
 ## Сайт для TrueCode
 
-![Alt text](TrueCode.mp4)
-
-<video src='TrueCode.mp4' width=1920/>
+# [Ссылка на проект](https://drive.google.com/file/d/1Zb4MXneFpbNu2dDBK7ws0rxVcHaHmL2R/view?usp=sharing)
